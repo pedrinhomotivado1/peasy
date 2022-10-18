@@ -200,7 +200,31 @@ body {
    background-image: url(../peasy/images/box3.jpg);
 }
 .boxback3 {
-   background-color: #e64630;
+   background-color: #8f46a0;
 }
-
+.boxback3 h3 {
+   font-size: 15px;
+}
+.boxfront4 {
+   background-image: url(../peasy/images/box4.jpg);
+}
+.boxback4 {
+   background-color: #cce7d4;
+   color: #010816;
+}
+.boxfront5 {
+   text-justify: auto;
+   background-image: url(../peasy/images/box5.jpg);
+}
+.boxback5 {
+   background-color: #e1ece4;
+   color: #010816;
+}
+.boxfront6 {
+   background-image: url(../peasy/images/box6.jpg);
+}
+.boxback6 {
+   background-color: #cce7d4;
+   color: #010816;
+}
  /* /////////////////////////////////////////// fim da area box front e back /////////////////////////////////////////////*/

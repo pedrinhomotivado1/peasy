@@ -113,6 +113,18 @@ body {
    flex: 1;
    padding-left: 20px;
 }
+.buttonsaibamais {
+   background-color: green;
+   cursor: pointer;
+   padding: 10px;
+   border-radius: 5px;
+   text-decoration: none;
+   color: #f1f1f1;
+   transition: all ease 0.5s;
+}
+.buttonsaibamais:hover {
+   background-color: rgb(1, 53, 1);
+}
 
 /* area sliders */
 
@@ -171,5 +183,24 @@ body {
    flex-wrap: wrap;
  }
 
+ /* //////////////////////////////////////////////////// box front e back /////////////////////////////////////////////*/
+.boxfront1 {
+   background-image: url(../peasy/images/landpage.jpg);
+}
+.boxback1 {
+   background-color: #e64630;
+}
+.boxfront2 {
+   background-image: url(../peasy/images/box2.jpg);
+}
+.boxback2 {
+   background-color: #3280c7;
+}
+.boxfront3 {
+   background-image: url(../peasy/images/box3.jpg);
+}
+.boxback3 {
+   background-color: #e64630;
+}
 
- /* ///////////////////////////// fim da area 2 ///////////////////////*/
+ /* /////////////////////////////////////////// fim da area box front e back /////////////////////////////////////////////*/

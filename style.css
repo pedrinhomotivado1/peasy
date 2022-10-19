@@ -39,6 +39,9 @@ body {
    display: flex;
    justify-content: center;
    color: aliceblue;
+   margin-left: 10PX;
+   margin-right: 10px;
+   text-align: center;
 }
 
 /* menu*/
@@ -126,10 +129,16 @@ body {
    background-color: rgb(1, 53, 1);
 }
 
+
 /* area sliders */
 
 
-/* /////////////////////////////   area 2 ///////////////////////*/
+/* /////////////////////////////   area 2 produtos ///////////////////////*/
+
+.section-products {
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
 
 /* O contêiner flip box - defina a largura e a altura para o que você quiser. Adicionamos a propriedade border para demonstrar que o flip em si sai da caixa ao passar o mouse (remova a perspectiva se você não quiser o efeito 3D */
 .flip-box {
@@ -204,6 +213,7 @@ body {
 }
 .boxback3 h3 {
    font-size: 15px;
+   padding: 5px;
 }
 .boxfront4 {
    background-image: url(../peasy/images/box4.jpg);
@@ -228,3 +238,45 @@ body {
    color: #010816;
 }
  /* /////////////////////////////////////////// fim da area box front e back /////////////////////////////////////////////*/
+
+ /* /////////////////////////////////////////// area tecnologia /////////////////////////////////////////////*/
+
+.tecnolgies-area {
+   display: flex;
+   justify-content: center;
+   background-color: rgba(17, 14, 184, 0.3);
+   padding: 20px;
+   margin-bottom: 20px;
+
+}
+.tecno-images {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.tecno-images img {
+   width: 100px;
+}
+.tecnoimage {
+   width: 100px;
+   margin: 10px;
+}
+
+ .angry-animate:hover {
+   -webkit-animation:zoom-in-out 1s linear 0s 2 normal;
+   -moz-animation:zoom-in-out 1s linear 0s 2 normal;
+   -ms-animation:zoom-in-out 1s linear 0s 2 normal;
+   animation:zoom-in-out 1s linear 0s 2 normal;
+   }
+   
+   @-webkit-keyframes zoom-in-out {
+   0%{ -webkit-transform: scale(1); transform: scale(1); }
+   50%{ -webkit-transform: scale(1.2); transform: scale(1.2); }
+   100%{ -webkit-transform: scale(1); transform: scale(1); }
+   }
+   
+   @keyframes zoom-in-out {
+   0%{ -ms-transform: scale(1); transform: scale(1); }
+   50%{ -ms-transform: scale(1.2); transform: scale(1.2); }
+   100%{ -ms-transform: scale(1); transform: scale(1); }
+   }

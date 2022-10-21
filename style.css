@@ -42,6 +42,7 @@ body {
    margin-left: 10PX;
    margin-right: 10px;
    text-align: center;
+   font-size: 25px;
 }
 
 /* menu*/
@@ -247,6 +248,8 @@ body {
    background-color: rgba(17, 14, 184, 0.3);
    padding: 20px;
    margin-bottom: 20px;
+   border-top: solid 1px #93b4f7;
+   border-bottom: solid 1px #93b4f7;
 
 }
 .tecno-images {
@@ -280,3 +283,47 @@ body {
    50%{ -ms-transform: scale(1.2); transform: scale(1.2); }
    100%{ -ms-transform: scale(1); transform: scale(1); }
    }
+
+/* /////////////////////////////////////////////// area footer //////////////////////////////////////////////////*/
+footer {
+   background-color: #010816;
+   padding-top: 20px;
+}
+.contact {
+   display: flex;
+   justify-content: center;
+   margin: 30px;
+}
+.footersideall {
+   display: flex;
+   color: #f1f1f1;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.footerside1 {
+   flex: 2;
+   display: flex;
+   justify-content: space-around;
+}
+.footerside2 {
+   flex: 1;
+}
+.icone {
+   display: flex;
+   justify-content: center;
+}
+.icone img {
+   width: 30px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.logocopy {
+   width: 100px;
+   margin-left: 5px;
+}
+.footercopy {
+   display: flex;
+   justify-content: center;
+   color: #f1f1f1;
+   margin-bottom: 30px;
+}

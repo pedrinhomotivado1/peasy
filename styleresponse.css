@@ -23,5 +23,19 @@
    .logo img {
       width: 200px;
    }
-
+   .footersideall {
+      flex-direction: column;
+      text-align: center;
+      text-decoration: none;
+   }
+   .footerside1 {
+      flex-direction: column;
+   }
+   .footerside2 a {
+      
+      
+   }
+   .icone {
+      margin-top: 20px;
+   }
 }

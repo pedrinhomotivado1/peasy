@@ -27,11 +27,13 @@ body {
    height: auto;
    padding: 0px 20px;
 }
+header {
+   background-color: #03173f;
+}
 .headerarea {
    display: flex;
    align-items: center;
-   justify-content: center;
-   background-color: #010816;
+   justify-content: space-between;
    width: 100%;
    height: 100px;
 }
@@ -45,51 +47,71 @@ body {
    font-size: 25px;
 }
 
-/* menu*/
-
-
-.menuarea img {
-   width: 50px;
-   height: auto;
+/* //////////////////////////////////////////////////// menu /////////////////////////////////////////////*/
+/* botao efeito */
+.containermenu {
+   display: inline-block;
    cursor: pointer;
-   position: relative;
-   right: 70px;
-   top: 20px;
-}
-.menuarea {
-   display: none;
-   width: 200px;
-   height: 100vh;
+   margin-right: 30px;
+   position:relative ;
+   right: 50px;
+   top: 30px;
+ }
+ 
+ .bar1, .bar2, .bar3 {
+   width: 35px;
+   height: 5px;
+   background-color: rgb(16, 209, 26);
+   margin: 6px 0;
+   transition: 0.4s;
+ }
+ 
+ /* Rotate first bar */
+ .change .bar1 {
+   transform: translate(0, 11px) rotate(-45deg);
+ }
+ 
+ /* Fade out the second bar */
+ .change .bar2 {opacity: 0;}
+ 
+ /* Rotate last bar */
+ .change .bar3 {
+   transform: translate(0, -11px) rotate(45deg);
+ }
+
+ /*/////////////////menu aberto e fechado ///////////////*/
+
+ .open {
+   width: 180px;
+ }
+ .close {
+   width: 0px;
+ }
+ .menuarea {
+   height: 100%;
    position: fixed;
-   top: 0;
    right: 0;
-   background-color: #0da9607c;
-   transition: all ease 1s;
-   
-}
-.closed {
-   width: 0px;   
-}
-.menuarea nav {
-   margin-top: -30px;
-   width: 100%;
-}
-.menuitem {
+   top: 0px;
+   background-color: #10d11a77;
+   z-index: 99;
+   transition: all ease 0.5s;
+ }
+ .menuall {
    display: flex;
-   align-items: center;
-   font-size: 17px;
-   font-weight: bold;
-   background-color: #0da9607c;
-   padding: 10px;
-   text-transform: uppercase;
-   text-decoration: none;
+   flex-direction: column;
+   list-style: none;
+   padding: 0;
+ }
+ .menuind {
+   background-color: #10d11a;
+   padding: 10px 15px;
+ }
+ .menuall a {
    margin-bottom: 10px;
-   color: white;
-}
-.menuitem:hover {
-   transition: all ease 2s;
-   background-color: greenyellow;
-}
+   text-decoration: none;
+   font-family: 'Share Tech', sans-serif;
+   font-weight: bold;
+ }
 
 
 /* area 1 */

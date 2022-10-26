@@ -1,11 +1,14 @@
-@media (max-width:750px) {
+@media (max-width:800px) {
 
    .area1 {
-      flex-direction: column;
+      flex-direction: column-reverse;
       max-height: none;
    }
    .area1text {
       margin: 20px;
+      overflow:auto;
+      max-height: 300px;
+      text-align: center;
    }
    .banner1 {
       margin: auto;

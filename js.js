@@ -9,6 +9,19 @@ function abrirmenu() {
    }
 }
 
+function abrirsaibamais() {
+   let text = document.querySelector('.cardtext')
+   if (text.classList.contains('closetext')=== true) {
+      text.classList.remove('closetext')
+      text.classList.add('opentext')
+   } else {
+      text.classList.remove('opentext')
+      text.classList.add('closetext')
+   }
+}
+
+
+
 //////////////////////////////////// função do menu /////////////////////
 function myFunction(x) {
    x.classList.toggle("change");

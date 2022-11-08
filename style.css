@@ -155,14 +155,20 @@ header {
    padding-left: 20px;
 }
 .buttonsaibamais {
+   display: flex;
    background-color: green;
+   width: 70px;
+   height: 15px;
+   align-items: center;
    cursor: pointer;
    padding: 10px;
    border-radius: 5px;
    text-decoration: none;
    color: #f1f1f1;
    transition: all ease 0.5s;
+   margin: auto;
 }
+
 .buttonsaibamais:hover {
    background-color: rgb(1, 53, 1);
 }
@@ -174,14 +180,30 @@ header {
 /* /////////////////////////////   area 2 produtos ///////////////////////*/
 
 .section-products {
+   display: flex;
+   flex-wrap: wrap;
    margin-top: 30px;
    margin-bottom: 30px;
+}
+.cardtext{
+   flex: 2;
+   background-color: rgb(184, 186, 187);
+   color: rgb(8,40,93);
+   margin: 5px;
+   max-height: 180px;
+   overflow: auto;
+   padding: 10px;
+   transition: all ease 1s;
+   
+}
+.closetext {
+   display: none;
 }
 
 /* O contêiner flip box - defina a largura e a altura para o que você quiser. Adicionamos a propriedade border para demonstrar que o flip em si sai da caixa ao passar o mouse (remova a perspectiva se você não quiser o efeito 3D */
 .flip-box {
    background-color: transparent;
-   width: 300px;
+   min-width: 300px;
    height: 200px;
    border: 1px solid #f1f1f1;
    margin: 5px;
@@ -224,15 +246,13 @@ header {
    color: white;
    transform: rotateY(180deg);
  }
- .area2 {
+ .areacard {
    display: flex;
-   justify-content: space-around;
-   flex-wrap: wrap;
  }
 
  /* //////////////////////////////////////////////////// box front e back /////////////////////////////////////////////*/
 .boxfront1 {
-   background-image: url(../peasy/images/landpage.jpg);
+   background-image: url(../peasy/images/box1.jpg);
 }
 .boxback1 {
    background-color: #e64630;

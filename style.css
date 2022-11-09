@@ -45,6 +45,7 @@ header {
    margin-right: 10px;
    text-align: center;
    font-size: 25px;
+   text-transform: uppercase;
 }
 .buttontop {
    display: none;
@@ -154,12 +155,17 @@ header {
    flex: 1;
    padding-left: 20px;
 }
+.buttonsaibamaisarea {
+   display: flex;
+   justify-content: center;
+}
 .buttonsaibamais {
    display: flex;
+   width: 120px;
    background-color: green;
-   width: 70px;
-   height: 15px;
    align-items: center;
+   text-align: center;
+   justify-content: center;
    cursor: pointer;
    padding: 10px;
    border-radius: 5px;
@@ -225,7 +231,9 @@ header {
  }
  
  /* Modal Body */
- .modal-body {padding: 2px 16px;}
+ .modal-body {
+   padding: 2px 16px;
+}
  
  /* Modal Footer */
  .modal-footer {

@@ -158,10 +158,11 @@ header {
 .buttonsaibamaisarea {
    display: flex;
    justify-content: center;
+   margin-bottom: 10px;
 }
 .buttonsaibamais {
    display: flex;
-   width: 120px;
+   width: 150px;
    background-color: green;
    align-items: center;
    text-align: center;
@@ -351,7 +352,7 @@ header {
    color: #010816;
 }
 .boxfront6 {
-   background-image: url(../peasy/images/box6.jpg);
+   background-image: url(../peasy/images/box\ 6-2.jpg);
 }
 .boxback6 {
    background-color: #cce7d4;

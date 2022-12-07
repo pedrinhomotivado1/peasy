@@ -168,4 +168,3 @@ function decidirbotão() {
 }
 
 
-window.addEventListener('scroll', decidirbotão)
